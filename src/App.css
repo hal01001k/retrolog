@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.row-header{
+  margin:0px auto;
+  padding: 0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer{
+  color: #A6D0E2;
+  margin:0px;
+  padding: 20px 0px 20px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jumbotron {
+  padding:70px 30px 20px 30px;
+  margin:0px auto;
+  background: #055555 ;
+  color:#a5f5f5;
 }
 
-.App-link {
-  color: #61dafb;
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-dark {
+  background-color: #050505;
+}
+
+.pad{
+  padding-top:30px;
+}
+.padX{
+  padding-top:60px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+/*#9EC6D7*/
+
+body{
+  font-family: 'Press Start 2P', cursive;
+}
+.sz{
+font-size: 200px;
+}
+
+.gif{
+  height:150px;
+  width:300px;
 }
